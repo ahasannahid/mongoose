@@ -1,0 +1,10 @@
+//mongoose hocche mongodb er wrapper
+//mongoose is an object data modeling(ODM) library for mongodb.
+//mongoose , mongodb er upor abstraction layer hisebe kaj kore.
+//mongoose can define schemas, models and rekationship between mongodb documents.
+//mongoose can applicable only mongodb database
+        
+            //typescript --> mongoose
+// INTERFACE --> SCHEMA --> MODEL --> DATABASE QUERY
+
+//mongodb install directory => C:\Program Files\MongoDB\Server\6.0\data\
