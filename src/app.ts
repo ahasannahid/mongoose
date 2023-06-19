@@ -74,7 +74,7 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
         },
         gender: {
             type: String,
-            enum: ['male' , 'female']
+            enum: ['male', 'female']
         },
         email: {
             type: String,
@@ -98,8 +98,31 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
     });
 
     // 3. Create a Model.
-    const User = model<IUser>('User', userSchema)
+    const User = model<IUser>('User', userSchema);
 
+
+    const createUserToDB = async () => {
+        //create instance using model
+        const user = new User({
+            id: '777',
+            role: 'student',
+            password: 1234,
+            name: {
+                firstName: 'Ahasan',
+                middleName: 'Habib',
+                lastName: 'Nahid',
+            },
+            dateOfBirth: '14-09-1997',
+            gender: 'male',
+            email: 'ahnahid123@gmail.com',
+            contactNo: '01910613458',
+            emergencyContactNo: '01568798947',
+            presentAddress: 'Mirpur-Dhaka',
+            permanentAddress: 'Mymensingh'
+        });
+        await user.save();
+    };
+    createUserToDB();
 });
 
 
