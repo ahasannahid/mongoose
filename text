@@ -8,3 +8,8 @@
 // INTERFACE --> SCHEMA --> MODEL --> DATABASE QUERY
 
 //mongodb install directory => C:\Program Files\MongoDB\Server\6.0\data\
+
+/*
+1. instance methods --> instance er method
+class -> instance + method -> instance method
+*/
