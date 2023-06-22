@@ -3,6 +3,7 @@
 //mongoose , mongodb er upor abstraction layer hisebe kaj kore.
 //mongoose can define schemas, models and rekationship between mongodb documents.
 //mongoose can applicable only mongodb database
+// insert and insertmany mongoose e kaj korbena
         
             //typescript --> mongoose
 // INTERFACE --> SCHEMA --> MODEL --> DATABASE QUERY
