@@ -12,4 +12,11 @@
 /*
 1. instance methods --> instance er method
 class -> instance + method -> instance method
+when we create a new user instance method applicable. or model er sathy notun instance create kora hoy
+2. static
+static class er sathy attached hoye jay
+// class -> attach -> method -> directly call using class => static method
+//user = new User
+// user.   instance method
+// User.getAdminusers()->method name ==>> static method
 */
